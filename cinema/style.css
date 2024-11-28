@@ -1,0 +1,62 @@
+body {
+    background-image: url(img/cinemabackground.jpg);
+    background-size: cover;
+}    
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Logo links, links naar rechts */
+  
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.nav {
+    flex: 1; /* Zorgt ervoor dat de nav de beschikbare ruimte vult */
+    text-align: center; /* Links in het midden */
+}
+
+.nav ul {
+    list-style: none;
+    display: inline-flex; /* Inline, zodat de ul smaller wordt */
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition voor kleur en border */
+    position: relative; /* Voor de pseudo-elementen */
+}
+
+.nav ul li a:hover {
+    color: #ffffff; /* Verander de tekstkleur bij hover */
+}
+
+.nav ul li a::after {
+    content: ''; /* Pseudo-element voor een lijn */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px; /* Onder de tekst */
+    height: 2px;
+    background-color: #ffffff; /* Kleur van de lijn */
+    transform: scaleX(0); /* Start met geen lijn */
+    transform-origin: center; /* Animatie start vanuit het midden */
+    transition: transform 0.3s ease; /* Soepele overgang */
+}
+
+.nav ul li a:hover::after {
+    transform: scaleX(1); /* Volledige lijn bij hover */
+}
