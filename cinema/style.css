@@ -328,7 +328,7 @@ h1 {
     position: relative;
     right: 20px;
     margin-top: 20px;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
 }
 
 .parent2 {
@@ -374,3 +374,16 @@ h1 {
     line-height: normal;
 }
 
+/*film pagina*/
+
+.films_art_bl {
+    background-color: #000;
+    color: #FFF;
+
+}
+
+.film_mid {
+    display: grid;
+    justify-content: center;
+    margin: 0;
+}
