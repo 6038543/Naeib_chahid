@@ -319,3 +319,58 @@ h1 {
     border: none;
     cursor: pointer;
 }
+
+/*film*/
+
+.funnel {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px ;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    gap: 25px;
+    max-width: max-content;
+    justify-content: center;
+    position: relative;
+    left: 180px;
+}
+
+.parent2 img {
+    width: 215px;
+    height: 298px;
+    flex-shrink: 0;
+}
+
+.parent2 section {
+    display: grid;
+    justify-content: center;
+}
+
+.parent2 section h1 {
+    color: #000;
+    font-family: "Asap Condensed";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.parent2 section p {
+    color: #888;
+    font-family: "Asap Condensed";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
