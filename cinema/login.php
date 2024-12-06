@@ -17,7 +17,7 @@
         </form>
         <footer class="footer-text">
             YOUR VISION. FAST. ON-TIME.<br>
-            DELIVERED TO YOUR CREATIVE STANDARDS.
+            DELIVERED TO YOUR CREATIVE STANDARDs.
         </footer>
     </div>
 </body>
