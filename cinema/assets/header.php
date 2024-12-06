@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinema Header</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/13f5e46cd8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
-        <div class="logo">MboCinema</div>
+        <div class="logo"><a href="index.php">MboCinema</a></div>
         <nav class="nav">
             <ul>
-                <li><a href="index.php">Home</a></li>
                 <li><a href="films.php">Films</a></li>
                 <li><a href="reserveren.php">Reserveren</a></li>
-                <li><a href="medewerkers.php">Medewerkers</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="login.php">Login</a></li>
             </ul>
         </nav>
+        <div><a href="login.php"><i class="fa-solid fa-right-to-bracket"></i></a></div>
     </header>
 </body>
 </html>
