@@ -16,6 +16,7 @@
                 <li><a href="reserveren.php">Reserveren</a></li>
                 <li><a href="medewerkers.php">Medewerkers</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="login.php">Login</a></li>
             </ul>
         </nav>
     </header>
