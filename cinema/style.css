@@ -74,47 +74,37 @@
     line-height: normal;
 }
 
-.nav ul li a {
+.ul_white li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000000;
     font-size: 1em;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-    /* Smooth transition voor kleur en border */
-    position: relative;
-    /* Voor de pseudo-elementen */
+    font-family: "Asap Condensed";
+
 }
 
-.nav ul li a:hover {
+/*header black*/
+
+.logo_black a {
     color: #ffffff;
-    /* Verander de tekstkleur bij hover */
+    font-family: "Asap Condensed";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
 }
 
-.nav ul li a::after {
-    content: '';
-    /* Pseudo-element voor een lijn */
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    /* Onder de tekst */
-    height: 2px;
-    background-color: #ffffff;
-    /* Kleur van de lijn */
-    transform: scaleX(0);
-    /* Start met geen lijn */
-    transform-origin: center;
-    /* Animatie start vanuit het midden */
-    transition: transform 0.3s ease;
-    /* Soepele overgang */
-}
-
-.nav ul li a:hover::after {
-    transform: scaleX(1);
-    /* Volledige lijn bij hover */
+.ul_black li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
 }
 
 
-/*home naeib*/
+
+
+
+/*home*/
 
 .home_all {
     display: flex;
@@ -180,6 +170,7 @@ img:hover {
     cursor: pointer;
 }
 
+
 /*log in*/
 
 
@@ -197,10 +188,6 @@ body {
     position: fixed;
     left: 550px;
     top: 100px;
-
-
-
-
 }
 
 

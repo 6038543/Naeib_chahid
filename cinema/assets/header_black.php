@@ -17,15 +17,15 @@
 
 <body>
     <header class="header">
-        <div class="logo"><a href="index.php">MboCinema</a></div>
+        <div class="logo_black"><a href="index.php">MboCinema</a></div>
         <nav class="nav">
-            <ul class="ul_white">
+            <ul class="ul_black">
                 <li><a href="films.php">Films</a></li>
                 <li><a href="reserveren.php">Reserveren</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
-        <div><a href="login.php"><i class="fa-solid fa-right-to-bracket" style="color: #000000;"></i></a></div>
+        <div><a href="login.php"><i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i></a></div>
     </header>
 </body>
 
