@@ -4,7 +4,7 @@
 <script src="jv/encryption_event.js" defer></script>
 
 <body>
-    <section>
+    <section class="sign_up_center">
         <article>
             <h2>Registratieformulier</h2>
             <form id="signupForm">
