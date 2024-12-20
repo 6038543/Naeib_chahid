@@ -1,12 +1,13 @@
 <?php include 'assets/header.php'; ?>
 
-
+<script src="jv/encryption.js" defer></script>
+<script src="jv/encryption_event.js" defer></script>
 
 <body>
     <section>
         <article>
             <h2>Registratieformulier</h2>
-            <form action="/submit-signup" method="POST">
+            <form id="signupForm">
                 <label for="username">Gebruikersnaam:</label><br>
                 <input type="text" id="username" name="username" required><br><br>
 
@@ -23,6 +24,32 @@
             </form>
         </article>
     </section>
-</body>
+
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm_password').value;
+            
+            if (password !== confirmPassword) {
+                alert('Wachtwoorden komen niet overeen!');
+                return;
+            }
+
+            const encrypted = SimpleEncryption.hashPassword(password);
+            
+            const formData = {
+                username: document.getElementById('username').value,
+                email: document.getElementById('email').value,
+                passwordHash: encrypted.hash,
+                passwordSalt: encrypted.salt
+            };
+
+            console.log('Versleutelde data:', formData);
+            
+        });
+    </script>
+</body>>
 
 </html>
