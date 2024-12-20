@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="password" id="password" name="password" required>
             
             <button type="submit" class="login-btn">LOGIN</button>
-            <a href="register.php" class="signup-link">Sign up</a>
+
         </form>
         <footer class="footer-text">
             YOUR VISION. FAST. ON-TIME.<br>
