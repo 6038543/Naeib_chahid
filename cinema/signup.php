@@ -2,6 +2,7 @@
 
 <script src="jv/encryption.js" defer></script>
 <script src="jv/encryption_event.js" defer></script>
+<script src="jv/feedback.js" defer></script>
 
 <body>
     <section class="sign_up_center">
