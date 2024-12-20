@@ -13,7 +13,7 @@
             <input type="email" id="email" name="email" required>
             
             <button type="submit" class="login-btn">LOGIN</button>
-            <a href="#" class="signup-link">sign up</a>
+            <a href="signup.php" class="signup-link">sign up</a>
         </form>
         <footer class="footer-text">
             YOUR VISION. FAST. ON-TIME.<br>
