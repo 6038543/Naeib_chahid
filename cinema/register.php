@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Hash het wachtwoord
+    // Hash het 
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
     // Voeg gebruiker toe aan de database
